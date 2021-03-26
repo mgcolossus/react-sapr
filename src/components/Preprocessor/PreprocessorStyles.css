@@ -1,0 +1,152 @@
+.table-input {
+    width: 100%;
+    height: 26px;
+    border: none;
+    text-align: center;
+    font-size: 26px;
+  }
+  .table-input.input-error {
+    background-color: rgba(231, 105, 105, 0.561);
+  }
+  .preprocessor {
+    border: 1px solid black;
+    padding: 10px 0;
+    flex: 1 1 80%;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+  }
+  .preprocessor .preprocessor__rods {
+    padding: 10px;
+    flex: 1 1 100%;
+  }
+  .preprocessor .preprocessor__rods-table {
+    margin: 0 auto;
+    width: 100%;
+    border-collapse: collapse;
+  }
+  .preprocessor .preprocessor__rods-table td:first-child {
+    width: 40px;
+  }
+  .preprocessor .preprocessor__rods-table td:last-child {
+    border: none;
+  }
+  .preprocessor .preprocessor__rods-table td {
+    text-align: center;
+    border: 1px solid black;
+    height: 26px;
+  }
+  .preprocessor .preprocessor__rods-table td input.input-error {
+    background-color: rgba(255, 57, 57, 0.561);
+  }
+  .preprocessor .preprocessor__rods-table td.preprocessor__rods-add-rod-button-td {
+    border: none;
+    display: flex;
+  }
+  .preprocessor .preprocessor__rods-table td.preprocessor__rods-add-rod-button-td button {
+    width: 75px;
+    height: 100%;
+    align-items: center;
+    margin: 2px 5px 2px 10px;
+    line-height: 15px;
+  }
+  .preprocessor .preprocessor__rods-table .preprocessor__rods-row-buttons {
+    border: none;
+    display: flex;
+    align-items: center;
+    margin: 5px 0;
+  }
+  .preprocessor .preprocessor__rods-table .preprocessor__rods-row-buttons button {
+    margin: 5px 0 5px 10px;
+    height: 100%;
+    line-height: 14px;
+  }
+  .preprocessor .preprocessor__rods-interface {
+    flex: 0 1 calc(100% - 40px);
+    padding: 30px 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 20px;
+  }
+  .preprocessor .preprocessor__rods-interface .preprocessor__rods-buttons {
+    flex: 1 1 33%;
+    display: flex;
+    
+  }
+  .preprocessor .preprocessor__rods-interface .preprocessor__rods-buttons div {
+    margin: 10px;
+    flex: 1 1 50%;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .preprocessor .preprocessor__rods-interface .preprocessor__rods-buttons div button {
+    height: 100%;
+    width: 100%;
+    font-size: 22px;
+    margin: 10px 0;
+  }
+  .preprocessor .preprocessor__rods-interface .preprocessor__rods-openfile {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 40%;
+    text-align: center;
+  }
+  .preprocessor .preprocessor__rods-interface .preprocessor__rods-openfile input, .preprocessor .preprocessor__rods-interface .preprocessor__rods-openfile label {
+    font-size: 22px;
+  }
+  .preprocessor .preprocessor__rods-interface .preprocessor__rods-openfile input {
+    display: block;
+    margin: 0 auto;
+  }
+  .preprocessor .preprocessor__nodes {
+    flex: 0 1 100%;
+    display: flex;
+    align-items: center;
+    padding: 30px 0;
+  }
+  .preprocessor .preprocessor__nodes-table-wrapper {
+    display: block;
+    flex: 1 1 50%;
+  }
+  .preprocessor .preprocessor__nodes-table {
+    margin: 0 auto;
+    border-collapse: collapse;
+  }
+  .preprocessor .preprocessor__nodes-table td {
+    text-align: center;
+    border: 1px solid black;
+  }
+  .preprocessor .preprocessor__nodes-table td input {
+    width: 100%;
+  }
+  .preprocessor .preprocessor__nodes-table td.preprocessor__nodes-button-td {
+    border: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  .preprocessor .preprocessor__nodes-table td.preprocessor__nodes-button-td button {
+    display: block;
+    width: 100%;
+    margin: 5px 0px 5px 10px;
+  }
+  .preprocessor .preprocessor__nodes .preprocessor__rods-supports {
+    display: flex;
+    flex: 1 1 20%;
+    flex-direction: column;
+    align-items: center;
+  }
+  .preprocessor .preprocessor__nodes .preprocessor__rods-supports div {
+    font-size: 24px;
+    display: flex;
+    margin: 5px 0;
+    align-items: center;
+  }
+  .preprocessor .preprocessor__nodes .preprocessor__rods-supports input {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+  }
+  

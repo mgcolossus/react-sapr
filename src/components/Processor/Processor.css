@@ -1,0 +1,35 @@
+.processor {
+    border: 1px solid black;
+    padding: 10px;
+    flex: 1 1 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    position: relative;
+}
+
+.processor button {
+    font-size: 24px;
+    width: 200px;
+    margin: 10px;
+}
+
+.processor .processor-main-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.processor .processor-main-content div {
+    font-size: 24px;
+}
+
+div .processor-title {
+    font-size: 36px;
+    text-align: center;
+    padding: 20px 0;
+    text-decoration: underline;
+    flex: 0 0 35%;
+}

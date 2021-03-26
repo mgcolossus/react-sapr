@@ -1,0 +1,102 @@
+.post-processor {
+    border: 1px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.post-processor.error {
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+.post-processor.error div {
+    font-size: 24px;
+}
+
+.post-processor .plots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex: 1 0 100%;
+}
+
+.post-processor .plots .plot {
+    flex: 0 0 calc(33% - 40px);
+    margin: 20px;
+}
+
+.post-processor .plots .plot__title {
+    text-align: center;
+    margin: 5px 0;
+    font-size: 24px;
+}
+
+.post-processor .exact-values {
+    display: flex;
+    justify-content: center;
+}
+
+.post-processor .exact-values input {
+    max-width: 60px;
+}
+
+.post-processor .exact-values select {
+    outline: none;
+}
+
+.post-processor .post-processor-table {
+    flex: 1 0 100%;
+    margin: 30px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post-processor .post-processor-table input {
+    max-width: 50px;
+}
+
+.post-processor .post-processor-table td {
+    width: 250px;
+    text-align: center;
+}
+
+.post-processor .post-processor-table .post-processor-table-interface {
+    display: flex;
+    justify-content: center;
+}
+
+.post-processor .post-processor-table .post-processor-table-interface .post-processor-table-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.post-processor .post-processor-table .post-processor-table-interface div button {
+    width: 100%;
+}
+
+.post-processor .post-processor-table .step-for-table-input {
+    outline: none;
+}
+
+.post-processor .post-processor-table .step-for-table-input.error {
+    border: 1px solid red;
+}
+
+.post-processor .post-processor-table table {
+    margin: 20px 0;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.post-processor .post-processor-table td {
+    border: 1px solid black;
+    padding: 0.3em;
+}
+
+.post-processor .post-processor-table td.out-of-limit {
+    color: red;
+}
